@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="mainbody" >
+    <div class="main">
+        <div class="top">
+            <div class="black">
+                <p>Text Color Picker</p>
+                <input class="form-control" id="colorPicker" type="color">
+            </div>
+            <div class="black">
+                <p>Background</p>
+                <input class="form-control" type="color" id="canvascolor" />
+
+            </div>
+
+            <div class="black">
+                <p>Font Size</p>
+                <select name="" id="fontPicker">
+                    <option value="5">5px</option>
+                    <option value="10">10px</option>
+                    <option value="20">20px</option>
+                    <option value="30">30px</option>
+                </select>
+            </div>
+        </div>
+
+        <canvas  class="canvas" id="mycanvas" width="800px" height="500"> </canvas>
+
+        <div class="bottom">
+            <button type="button" class="btn btn-danger" id="clearbutton">Clear</button>
+            <button type="button" class="btn btn-warning" id="retrivebutton">Retrive saved Signature</button>
+            <button type="button" class="btn btn-success" id="savebutton">Downlaod</button>            
+
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%) ;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.canvas{
+    /* margin-left:400px; */
+    border: 2px solid rgb(8, 7, 7);
+}
+.top , .bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+    
+
+.block , input , select , button{
+    width: 80%;
+}
+.top>.block{
+    margin: 10px;
+
+ } 
+.bottom>.button{
+    margin: 10px;
+
+    
+    
+    
+}
+.block>p{
+    margin: 10px auto;
+    width: 50%;
+}
+
+button{
+    size: 10px;
+    justify-content: space-between;
+}
